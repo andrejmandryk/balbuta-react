@@ -69,13 +69,13 @@ const Slounik = () => {
       <div className="letters-container">
         {letters && letters.map((letter) => <Letter letter={letter} />)}
       </div>
-      <List>
+      <List className="list">
         {searchResults &&
           searchResults.map(
             ({ wordname, translation }, i) =>
               i < currPage * 12 &&
               i > currPage * 12 - 13 && (
-                <ListItem key={wordname}>
+                <ListItem className="word" key={wordname}>
                   <Typography variant="body1">{`${wordname} - ${translation}`}</Typography>
                 </ListItem>
               )

@@ -4,7 +4,9 @@ import { TextField } from "@mui/material";
 const SearchInput = () => {
   const [, setParams] = useSearchParams();
 
-  return <TextField onChange={(e) => setParams({ q: e.target.value })} variant="outlined" />;
+  return (
+    <TextField size="small" onChange={(e) => setParams({ q: e.target.value })} variant="outlined" />
+  );
 };
 
 export default SearchInput;

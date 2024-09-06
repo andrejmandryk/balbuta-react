@@ -5,12 +5,11 @@
   margin: 0 15% 0.5rem;
 }
 
-.MuiList-root {
+.list {
   margin-left: 15% !important;
-  padding-top: 0 !important;
 }
 
-.MuiListItem-root {
+.word {
   padding-left: 0 !important;
   padding-top: 0 !important;
 }
@@ -18,7 +17,8 @@
 .pages-container {
   position: absolute;
   left: 15%;
-  bottom: 0.8rem;
+  bottom: 1rem;
+  right: 15%;
 }
 
 .page {

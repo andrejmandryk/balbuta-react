@@ -15,8 +15,8 @@
   justify-self: start;
 }
 
-a[class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary link css-1apkmlw-MuiButtonBase-root-MuiButton-root"] {
-  color: #fff;
+.link {
+  color: #fff !important;
 }
 
 .nav-bar {
@@ -25,4 +25,5 @@ a[class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary 
   grid: [first] ". first second third ." [last] / 15% 1fr 1fr 1fr 15%;
   column-gap: 10px;
   justify-items: center;
+  margin-top: 1rem;
 }
