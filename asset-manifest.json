@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/balbuta-react/static/css/main.44d6492d.css",
-    "main.js": "/balbuta-react/static/js/main.e1f29e7d.js",
-    "index.html": "/balbuta-react/index.html",
-    "main.44d6492d.css.map": "/balbuta-react/static/css/main.44d6492d.css.map",
-    "main.e1f29e7d.js.map": "/balbuta-react/static/js/main.e1f29e7d.js.map"
+    "main.css": "/static/css/main.44d6492d.css",
+    "main.js": "/static/js/main.e1f29e7d.js",
+    "index.html": "/index.html",
+    "main.44d6492d.css.map": "/static/css/main.44d6492d.css.map",
+    "main.e1f29e7d.js.map": "/static/js/main.e1f29e7d.js.map"
   },
   "entrypoints": [
     "static/css/main.44d6492d.css",
