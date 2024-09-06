@@ -45,7 +45,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://andrejmandryk.github.io/balbuta-react",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
